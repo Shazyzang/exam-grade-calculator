@@ -1,0 +1,279 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#FFFFA3"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+        >
+
+        <TextView android:id="@+id/markTitle"
+                  android:layout_weight="1"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:textSize="24sp"
+                  android:textStyle="bold"
+                  android:text="@string/mark_string"/>
+        <TextView android:id="@+id/outOfTitle"
+                  android:layout_weight="1"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:textSize="24sp"
+                  android:textStyle="bold"
+                  android:text="@string/out_of_string"/>
+        <TextView android:id="@+id/weightTitle"
+                  android:layout_weight="1"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:textSize="24sp"
+                  android:textStyle="bold"
+                  android:text="@string/weight_string"/>
+    </LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:orientation="horizontal"
+android:weightSum="3"
+
+  >
+
+<EditText android:id="@+id/mark1"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/zero_string"
+    android:inputType="number"/>
+<EditText android:id="@+id/outof1"
+          android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/zero_string"
+     android:inputType="number"/>
+<EditText android:id="@+id/weight1"
+          android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/zero_string"
+    android:inputType="number"/>
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_weight="1"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+>
+<EditText android:id="@+id/mark2"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/zero_string"
+    android:inputType="number"/>
+<EditText android:id="@+id/outof2"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/zero_string"
+    android:inputType="number"/>
+<EditText android:id="@+id/weight2"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/zero_string"
+    android:inputType="number"/>
+</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText android:id="@+id/mark3"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+        <EditText android:id="@+id/outof3"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+        <EditText android:id="@+id/weight3"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText android:id="@+id/mark4"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+        <EditText android:id="@+id/outof4"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+        <EditText android:id="@+id/weight4"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText android:id="@+id/mark5"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+        <EditText android:id="@+id/outof5"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+        <EditText android:id="@+id/weight5"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText android:id="@+id/mark6"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+        <EditText android:id="@+id/outof6"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+        <EditText android:id="@+id/weight6"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText android:id="@+id/mark7"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+        <EditText android:id="@+id/outof7"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+        <EditText android:id="@+id/weight7"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/zero_string"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+        >
+        <EditText android:id="@+id/mark8"
+                  android:layout_weight="1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:hint="@string/zero_string"
+                  android:inputType="number"/>
+        <EditText android:id="@+id/outof8"
+                  android:layout_weight="1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:hint="@string/zero_string"
+                  android:inputType="number"/>
+        <EditText android:id="@+id/weight8"
+                  android:layout_weight="1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:hint="@string/zero_string"
+                  android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText android:id="@+id/finalgrade"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/final_grade_string"
+            android:inputType="number"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate_string"
+            android:id="@+id/calculateButton"
+            android:background="#50C1E6"/>
+
+    </LinearLayout>
+
+</LinearLayout>
